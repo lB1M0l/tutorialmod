@@ -3,7 +3,8 @@
   "item.tutorialmod.raw_citrine": "Raw citrine",
   "block.tutorialmod.citrine_block": "Citrine block",
   "block.tutorialmod.citrine_ore": "Citrine ore",
+  "item.tutorialmod.dowsing_rod": "Dowsing rod",
 
-
-  "itemGroup.tutorialtab": "Tutorial mod"
+  "itemGroup.tutorialtab": "Tutorial mod",
+  "item.tutorialmod.dowsing_rod.no_valuables": "Dowsing rod"
 }

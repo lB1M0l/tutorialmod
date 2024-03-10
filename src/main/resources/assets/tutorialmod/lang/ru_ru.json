@@ -2,8 +2,10 @@
   "item.tutorialmod.citrine": "Цитрин",
   "item.tutorialmod.raw_citrine": "Необработанный цитрин",
   "block.tutorialmod.citrine_block": "Цитриновый блок",
-  "block.tutorialmod.citrine_ore": "Блок цитриновой руды",
+  "block.tutorialmod.citrine_ore": "Цитриновая руда",
+  "item.tutorialmod.dowsing_rod": "Поисковик",
 
-
-  "itemGroup.tutorialtab": "Туториал мод"
+  "itemGroup.tutorialtab": "Туториал мод",
+  "item.tutorialmod.dowsing_rod.no_valuables": "Тут ничего нет",
+  "chat.tutorialmod.found_item": "Найден %s на (%d, %d, %d)\n"
 }
