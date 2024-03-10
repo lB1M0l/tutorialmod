@@ -3,4 +3,7 @@
   "item.tutorialmod.raw_citrine": "Необработанный цитрин",
   "block.tutorialmod.citrine_block": "Цитриновый блок",
   "block.tutorialmod.citrine_ore": "Блок цитриновой руды",
+
+
+  "itemGroup.tutorialtab": "Туториал мод"
 }

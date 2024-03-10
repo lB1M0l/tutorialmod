@@ -1,6 +1,7 @@
 package net.B1M0.tutorialmod.block;
 
 import net.B1M0.tutorialmod.TutorialMod;
+import net.B1M0.tutorialmod.item.ModCreativeModeTab;
 import net.B1M0.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,9 +21,9 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block", ()->new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block", ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
-    public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore", ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore", ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.TUTORIAL_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
