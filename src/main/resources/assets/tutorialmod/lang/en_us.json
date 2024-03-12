@@ -4,7 +4,12 @@
   "block.tutorialmod.citrine_block": "Citrine block",
   "block.tutorialmod.citrine_ore": "Citrine ore",
   "item.tutorialmod.dowsing_rod": "Dowsing rod",
+  "item.tutorialmod.dowsing_rod_3_by_3": "Dowsing rod 3 by 3",
 
   "itemGroup.tutorialtab": "Tutorial mod",
-  "item.tutorialmod.dowsing_rod.no_valuables": "Dowsing rod"
+  "item.tutorialmod.dowsing_rod.no_valuables": "Dowsing rod",
+  "chat.tutorialmod.found_item": "Found %s on (%d, %d, %d)\n",
+  "chat.tutorialmod.found_item.3_by_3": "Found %s from X: %d Y: %d Z: %d up to X:%d Y: %d Z: %d\n",
+  "chat.tutorialmod.found_item_dig_down": "Dig_down: %d",
+  "chat.tutorialmod.found_item.3_by_3_coordinate": "%s на X: %d, Y:%d, Z:%d\n"
 }

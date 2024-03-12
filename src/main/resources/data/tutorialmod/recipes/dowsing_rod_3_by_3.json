@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " $ ",
+    "$@$",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:citrine_block"
+    },
+    "$": {
+      "item":"minecraft:stick"
+    },
+    "@": {
+      "item":"tutorialmod:citrine_ore"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:dowsing_rod_3_by_3"
+  }
+}

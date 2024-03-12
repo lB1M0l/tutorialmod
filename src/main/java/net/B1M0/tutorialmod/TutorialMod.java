@@ -26,6 +26,9 @@ public class TutorialMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+
+
     }
 
     private void setup(final FMLCommonSetupEvent event)

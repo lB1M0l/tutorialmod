@@ -4,8 +4,12 @@
   "block.tutorialmod.citrine_block": "Цитриновый блок",
   "block.tutorialmod.citrine_ore": "Цитриновая руда",
   "item.tutorialmod.dowsing_rod": "Поисковик",
+  "item.tutorialmod.dowsing_rod_3_by_3": "Поисковик 3 на 3",
 
   "itemGroup.tutorialtab": "Туториал мод",
   "item.tutorialmod.dowsing_rod.no_valuables": "Тут ничего нет",
-  "chat.tutorialmod.found_item": "Найден %s на (%d, %d, %d)\n"
+  "chat.tutorialmod.found_item": "Найден %s на (%d, %d, %d)\n",
+  "chat.tutorialmod.found_item.3_by_3": "Найдена %s от X: %d Y: %d Z: %d до X:%d Y: %d Z: %d\n",
+  "chat.tutorialmod.found_item.3_by_3_coordinate": "%s на X: %d, Y:%d, Z:%d\n",
+  "chat.tutorialmod.found_item_dig_down": "Копать вниз: %d"
 }

@@ -2,6 +2,7 @@ package net.B1M0.tutorialmod.item;
 
 import net.B1M0.tutorialmod.TutorialMod;
 import net.B1M0.tutorialmod.item.custom.DowsingRodItem;
+import net.B1M0.tutorialmod.item.custom.DowsingRodItem3by3;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,6 +22,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
             ()->new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).durability(6)));
+    public static final RegistryObject<Item> DOWSING_ROD_3_BY_3 = ITEMS.register("dowsing_rod_3_by_3",
+            ()->new DowsingRodItem3by3(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).durability(10)));
 
 
 
