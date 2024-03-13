@@ -1,6 +1,7 @@
 package net.B1M0.tutorialmod.block;
 
 import net.B1M0.tutorialmod.TutorialMod;
+import net.B1M0.tutorialmod.block.custom.SpeedyBlock;
 import net.B1M0.tutorialmod.item.ModCreativeModeTab;
 import net.B1M0.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -25,6 +26,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore", ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),ModCreativeModeTab.TUTORIAL_TAB);
 
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",()->new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f)),ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toRerurn = BLOCKS.register(name,block);
@@ -37,6 +39,8 @@ public class ModBlocks {
 
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
+
+
 
 
     public static void register(IEventBus eventBus){
